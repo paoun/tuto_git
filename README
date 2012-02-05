@@ -1,1 +1,11 @@
-HELLO WORLD !
+mkdir ~/tuto_git
+cd ~/tuto_git
+git init
+Initialized empty Git repository in /Users/your_user_directory/tuto_git/.git/
+touch README
+
+git add README
+git commit -m 'first commit'
+
+git remote add origin git@github.com:paoun/tuto_git.git
+git push origin master
